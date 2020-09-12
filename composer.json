@@ -15,5 +15,12 @@
         "psr-4": {
             "Oshitsd\\Contact\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Oshitsd\\Contact\\ContactServiceProvider"
+            ]
+        }
     }
 }
